@@ -1,0 +1,67 @@
+{
+	"namespace": "vrp",
+	"vrp_sidemenu": {
+		"$vrpAddon": true,
+		"modifications": [
+			{
+				"array_name": "controls",
+				"operation": "insert_back",
+				"value": [
+					{
+						"mirror_button@sidemenu_button": {
+							"$toggle_view_binding_name": "mirror_toggle",
+							"$glyph_texture": "textures/vrp/addons-mirror/icon",
+							"$glyph_color_texture": "textures/vrp/addons-mirror/icon",
+							"$button_text": "vanillaRaytraced.addons.mirror",
+							"$toggle_group_forced_index": 10001
+						}
+					}
+				]
+			}
+		]
+	},
+	"vrp_content": {
+		"modifications": [
+			{
+				"array_name": "controls",
+				"operation": "insert_back",
+				"value": [
+					{
+						"mirror@vrp.presentation": {
+							"$id": "mirror_toggle",
+							"$icon": "textures/vrp/addons-mirror/icon",
+							"$desc": "vanillaRaytraced.addons.mirror.description",
+							"$text": "mirror_text"
+						}
+					}
+				]
+			}
+		]
+	},
+	"mirror_text": {
+		"controls": [
+			{
+				"rp@menu_text": {
+					"font_scale_factor": 1.2,
+					"text": "vanillaRaytraced.addons.mirror.by"
+				}
+			},
+			{
+				"rp_by@menu_text": {
+					"text": "/§dMaze§5Wave\n\n"
+				}
+			},
+			{
+				"changes_title@menu_text": {
+					"font_scale_factor": 1.2,
+					"text": "vanillaRaytraced.addons.mirror.changes"
+				}
+			},
+			{
+				"changes@vrp.qa_answer": {
+					"text": "vanillaRaytraced.addons.mirror.changes.1.0"
+				}
+			}
+		]
+	}
+}

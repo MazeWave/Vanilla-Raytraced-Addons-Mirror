@@ -41,16 +41,28 @@
 	"mirror_text": {
 		"controls": [
 			{
-				"rp@menu_text": {
+				"rp_title@menu_text": {
 					"font_scale_factor": 1.2,
 					"text": "vanillaRaytraced.addons.mirror.by"
 				}
 			},
 			{
-				"rp_by@menu_text": {
+				"rp@menu_text": {
 					"text": "/§dMaze§5Wave\n\n"
 				}
 			},
+			{
+				"license_title@menu_text": {
+					"font_scale_factor": 1.2,
+					"text": "vanillaRaytraced.addons.mirror.license.title"
+				}
+			},
+			{
+				"license@vrp.qa_answer": {
+					"text": "vanillaRaytraced.addons.mirror.license"
+				}
+			},
+			{ "license_gap@menu_text": { "size": [6, 6] } },
 			{
 				"changes_title@menu_text": {
 					"font_scale_factor": 1.2,

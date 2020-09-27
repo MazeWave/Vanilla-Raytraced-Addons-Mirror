@@ -1,5 +1,7 @@
 vanillaRaytraced.addons.mirror=Miroir
 vanillaRaytraced.addons.mirror.description=Le module miroir pour Vanilla §2Raytraced§r remplace la texture end_bricks par une texture de miroir. Cet addon peut s'avérer utile avec des constructions modernes.
 vanillaRaytraced.addons.mirror.by=Créé par
+vanillaRaytraced.addons.mirror.license.title=Licence
+vanillaRaytraced.addons.mirror.license=BY-NC-SA §8(voir l'onglet §oLicence§r§8)
 vanillaRaytraced.addons.mirror.changes=Journal des modifications
 vanillaRaytraced.addons.mirror.changes.1.0=1.0 (02/09/2020): Version initiale

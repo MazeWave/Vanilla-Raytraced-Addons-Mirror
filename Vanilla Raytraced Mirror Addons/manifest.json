@@ -3,8 +3,8 @@
     "header": {
         "name": "Vanilla Raytraced Mirror Addons",
         "description": "Vanilla §aRaytraced §fMirror Addons replace end bricks textures with mirror which provide §c reflections§f to everything. This Addons can be helpful with modernistic build",
-        "version": [1, 0, 0],
-        "uuid": "eb5917e2-1c25-40d2-9df7-62578a00c7f4",
+        "version": [1, 1, 0],
+        "uuid": "1153e0e6-1072-11eb-9f97-73961f2437ea",
 		"min_engine_version": [1, 15, 0]
     },
     "modules": [

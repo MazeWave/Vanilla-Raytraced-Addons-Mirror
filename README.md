@@ -5,5 +5,5 @@
   <a href="https://github.com/MazeWave/Vanilla-Raytraced-Addons-Mirror/releases"><img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/MazeWave/Vanilla-Raytraced-Addons-Mirror/total"></a>
 </p>
 
-**Mirror Addons for [Vanilla Raytraced](https://github.com/MazeWave/Vanilla-Raytraced)** replace end_bricks texture with a mirror one.  
+**Mirror Addon for [Vanilla Raytraced](https://github.com/MazeWave/Vanilla-Raytraced)** replace end_bricks texture with a mirror one.  
 This addon could be helpful with Modernistic build.

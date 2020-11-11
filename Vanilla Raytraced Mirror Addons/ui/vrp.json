@@ -78,6 +78,11 @@
 				"changes1-1@vrp.qa_answer": {
 					"text": "vanillaRaytraced.addons.mirror.changes.1.1"
 				}
+			},
+			{
+				"changes1-2@vrp.qa_answer": {
+					"text": "vanillaRaytraced.addons.mirror.changes.1.2"
+				}
 			}
 		]
 	}

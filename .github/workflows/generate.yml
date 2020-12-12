@@ -1,0 +1,20 @@
+name: Generate
+
+on:
+  pull_request: {}
+  push: {}
+    
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get the repo
+        uses: actions/checkout@v2
+      - name: Generate
+        shell: pwsh
+        run: 'pwsh .\make.ps1'
+      - name: Upload the generated pack
+        uses: actions/upload-artifact@v2
+        with:
+          name: Mirror Addon for Vanilla Raytraced
+          path: .temp/export
